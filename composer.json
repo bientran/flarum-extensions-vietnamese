@@ -1,5 +1,5 @@
 {
-	"name": "flarum-extensions/lang-vn",
+	"name": "flarum-extensions/lang-vietnamese",
 	"version": "1.0.0",
 	"description": "Gói ngôn ngữ Tiếng Việt cho flarum",
 	"type": "flarum-extension",
