@@ -1,0 +1,14 @@
+flarum-ext-welcomebox:
+  forum:
+    wback: Chào mừng quay lại,
+    npost: => core.ref.posts
+    discussion: => core.ref.discussions
+    welcomeguest: Xin chào
+    notregistered: Bạn chưa đăng ký thành viên website này.
+    goToProfile: Đi tới hồ sơ
+    SettingsLink: Tùy chỉnh
+    tooltipProfile: Hồ sơ
+    tooltipMentions: Nhắc đến
+    tooltipDisclist: Bài viết của tôi
+  admin:
+    enablepostbox: Enable Welcome Box for guest

@@ -1,0 +1,15 @@
+clarkwinkelmann-bookmarks:
+  forum:
+    dropdownButton:
+      add: Thêm vào bookmark
+      remove: Gỡ bỏ khỏi bookmark
+    independentButton:
+      add: Bookmark
+      remove: Bookmark
+    badge: Bookmark
+    page:
+      link: Bookmarks
+      title: Bookmarks
+  admin:
+    settings:
+      independentButton: Show bookmark control in discussion sidebar instead of dropdown

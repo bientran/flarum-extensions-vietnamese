@@ -1,0 +1,34 @@
+clarkwinkelmann-mailing:
+  admin:
+    permissions:
+      mail_individual: Send emails to individual users
+      mail_all: Send emails to groups or all users
+
+  forum:
+    links:
+      mail_individual: Email tới người này
+      mail_all: Gửi Email
+    modal_mail:
+      title_text: Soạn Mail
+      recipients_label: Người nhận
+      recipients_placeholder: Thêm người nhận...
+      subject_label: Tiêu đề
+      default_subject: => clarkwinkelmann-mailing.ref.default_subject
+      message_label: Thông điệp
+      submit_button: Gửi
+    modal_sent:
+      title_text: Thư đã gửi!
+      on_its_way: Yeah! Thư của bạn đang được gửi tới {recipientsCount} người nhận!
+    recipient_kinds:
+      user: User
+      group: Group
+      email: Email
+
+  api:
+    no_recipients: No recipient were matched
+
+  email:
+    default_subject: => clarkwinkelmann-mailing.ref.default_subject
+
+  ref:
+    default_subject: Message from forum administration

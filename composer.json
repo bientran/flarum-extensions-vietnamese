@@ -1,0 +1,46 @@
+{
+	"name": "flarum-extensions/lang-vn",
+	"version": "1.0.0",
+	"description": "Gói ngôn ngữ Tiếng Việt cho flarum",
+	"type": "flarum-extension",
+	"license": "MIT",
+	"keywords": [
+		"extention",
+		"locale",
+		"flarum",
+		"Vietnamese",
+		"Tieng Viet",
+		"translation"
+	],
+	"authors": [
+		{
+			"name": "Bien Tran",
+			"email": "bien@diachiso.net",
+			"homepage": "https://diachiso.net"
+		}
+	],
+	"require": {
+		"flarum/core": "^1.0"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		},
+		"flarum-extension": {
+			"title": "Vietnamese",
+			"icon": {
+				"image": "icon.svg",
+				"backgroundColor": "#00247d",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "vi",
+			"title": "Vietnamese"
+		},
+		"flagrow": {
+			"discuss": "https://diachiso.net"
+		}
+	}
+}
